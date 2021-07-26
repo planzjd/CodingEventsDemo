@@ -8,8 +8,9 @@
 
   <ItemGroup>
     <Folder Include="Views\Events\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Remove="Views\Events\Add.cshtml" />
+    <None Remove="Data\" />
   </ItemGroup>
 </Project>
